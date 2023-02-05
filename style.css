@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background-color: blue;
+    display: flex;
+    padding: 20px;
+    width: 100%;
+}
+.logo{
+    float: left;
+    width: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin: 0px 0px 0px 92px ;
+}
+.loginform{
+    float: right;
+    color: white;
+    width: 50%;
+}
+input{
+    padding: 5px;
+    margin: 0px 5px 8px 0px;
+
+}
+label{
+    display: inline-table;
+   margin: 0px 0px 0px 9px;
+}
+.loginform button{
+text-align: center;
+   position: relative;
+   top: 20px;
+   left: 25px;
+   overflow: hidden;
+   padding: 5px;
+   background-color: rgb(64, 64, 167);
+   color: white;
+   font-weight: bold;
+}
+/* Header done here */
+.main{
+    margin-top: 45px;
+}
+.left-side{
+    color: blue;
+    font-weight: bold;
+    width: 50%;
+    float: left;
+    padding: 15px;
+    
+    }
+
+.rightside{
+
+width: 30%;
+position: relative;
+right: 20%;
+float: right;
+border: 2px solid rgb(161, 160, 160);
+padding: 15px;
+
+}
+input[type="email"],
+input[type="password"]
+{
+width: 100%;
+margin-bottom: 14px;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+}
+.namess{
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+.rightside label{
+    width: 100%;
+   margin-left: 0px;
+margin-bottom: 10px;
+}
+input[type="radio"]
+{
+margin-top: 10px;
+}
+.rightside label input{
+    margin: 10px;
+}
+.submit{
+    margin-top: 10px;
+    padding: 8px;
+    width: 150px;
+    border-radius: 10px;
+    background: green;
+    color: white;
+ 
+}
+.submit:hover{
+    animation: name 0s ease-out 0s 1 alternate both ;
+    position: relative;
+}
+@keyframes name {
+    0% {
+        bottom: 0;
+    box-shadow: 0px 0px 5px rgba(104, 53, 53 , 0.5);
+    }
+    100% {
+        bottom: 4px;
+        box-shadow: 1px 10px 15px rgba(255, 251, 5, 0.1);
+    }
+}
